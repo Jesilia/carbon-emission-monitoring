@@ -1,0 +1,87 @@
+/* Suggestions Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-up {
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.visuals, .interactive, .resources, .partnerships {
+    margin-bottom: 50px;
+}
+
+.visual-content {
+    display: flex;
+    align-items: center;
+}
+
+.visual-content .image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.visual-content .text {
+    max-width: 600px;
+}
+
+.text h3 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
